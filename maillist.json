@@ -1,0 +1,14 @@
+{
+"email-addresses":   ["mail-address 1", "mail-address-n"],
+
+
+"email-sender": { 
+                "user-name": "senderMail",
+		"password": "sender password"
+        	},
+
+"email-message": {
+		"sub": "Email Subject",
+		"body": "Email Body" 
+         	}
+}
