@@ -73,6 +73,7 @@ try:
   server.sendmail(FROM, TO, msg.as_string())
   server.close()
   print 'successfully sent the mail'
+  sys.exit(0)
 except:
   print "failed to send mail"
   e = sys.exc_info()[0]
